@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 // init cors
 app.use(cors());
 
-// config routes
+// config routesaa
 app.use('/', routes);
 
 const port = 3000;
