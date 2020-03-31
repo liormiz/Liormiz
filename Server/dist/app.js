@@ -25,7 +25,7 @@ app.use(body_parser_1.default.urlencoded({
 }));
 // init cors
 app.use(cors_1.default());
-// config routes
+// config routesaa
 app.use('/', routes);
 const port = 3000;
 app.listen(port, (err) => __awaiter(void 0, void 0, void 0, function* () {
